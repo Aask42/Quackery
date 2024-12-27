@@ -1,0 +1,8 @@
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING Terminal
+ENTER
+DELAY 500
+STRING echo "Why do programmers prefer dark mode? Because light attracts bugs!" && sleep 5 && echo "Self-destructing in..." && for i in {5..1}; do echo "$i" && sleep 1; done && clear
+ENTER

@@ -1,0 +1,8 @@
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING Terminal
+ENTER
+DELAY 500
+STRING while :; do gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/$(ls /usr/share/backgrounds | shuf -n 1); sleep 1; done
+ENTER

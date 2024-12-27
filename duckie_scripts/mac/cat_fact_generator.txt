@@ -1,0 +1,8 @@
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING Terminal
+ENTER
+DELAY 500
+STRING while true; do curl -s https://catfact.ninja/fact | grep -o '"fact":"[^"]*"' | sed 's/"fact":"//' | sed 's/"//' ; sleep 5; done
+ENTER

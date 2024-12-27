@@ -1,0 +1,9 @@
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING Terminal
+ENTER
+DELAY 500
+STRING echo "Starting The Matrix..." && sleep 1 && clear && while :; do echo "$(openssl rand -hex 32 | fold -w2 | tr '
+' ' ')"; done
+ENTER

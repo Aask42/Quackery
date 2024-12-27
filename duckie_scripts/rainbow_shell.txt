@@ -1,0 +1,12 @@
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING Terminal
+ENTER
+DELAY 500
+STRING echo 'PS1=\"\[[34m\]\u@\h \W \$ \[(B[m\]\"' >> ~/.bashrc
+ENTER
+STRING source ~/.bashrc
+ENTER
+STRING echo "Enjoy your colorful terminal!"
+ENTER
