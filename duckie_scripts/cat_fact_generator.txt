@@ -1,8 +1,0 @@
-DELAY 1000
-GUI SPACE
-DELAY 500
-STRING Terminal
-ENTER
-DELAY 500
-STRING while :; do curl -s https://catfact.ninja/fact | jq -r .fact; sleep 5; done
-ENTER

