@@ -1,0 +1,8 @@
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING Terminal
+ENTER
+DELAY 500
+STRING open -a Google\ Chrome http://tinyurl.com/s63ve48
+ENTER
